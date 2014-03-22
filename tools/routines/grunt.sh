@@ -1,0 +1,12 @@
+echo "###EXECUTING GRUNT COMPILING ... AWAITING FINISH PROCESS! DELICATED!"
+
+BUILD_FOLDER=$SRC/../public/_build/;
+echo "PASTA DO GRUNT: $BUILD_FOLDER";
+cd $BUILD_FOLDER;
+
+grunt --gruntfile Gruntfile.js
+
+echo "###EXIT GRUNT FOLDER"
+cd $SRC
+echo "FOLDER IN ACTION: $SRC";
+
